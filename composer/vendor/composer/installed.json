@@ -1,0 +1,41 @@
+[
+    {
+        "name": "mercadopago/sdk",
+        "version": "v0.5.2",
+        "version_normalized": "0.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mercadopago/sdk-php.git",
+            "reference": "88fd10a084f750c3e48b417a53c26260c11c2bb9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mercadopago/sdk-php/zipball/88fd10a084f750c3e48b417a53c26260c11c2bb9",
+            "reference": "88fd10a084f750c3e48b417a53c26260c11c2bb9",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*"
+        },
+        "time": "2015-10-14T13:49:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/mercadopago.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Horacio Casatti",
+                "email": "horacio.casatti@mercadolibre.com"
+            }
+        ],
+        "description": "MercadoPago SDK module for Payments integration.",
+        "keywords": [
+            "mercadopago",
+            "sdk"
+        ]
+    }
+]
